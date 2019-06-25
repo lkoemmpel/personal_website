@@ -46,7 +46,7 @@ $(window).scroll(function() {
    $('.stars').css({
      opacity: function() {
        var elementHeight = $(this).height();
-       return 1 - (elementHeight - scrollTop) / elementHeight;
+       return 1 - (elementHeight - scrollTop) / ( elementHeight - 600);
      }
    });
    $('.main').css({

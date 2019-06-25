@@ -15,7 +15,7 @@ html {
 }
 
 main {
-  background-color:rgba(255,255,255,0.7);
+  background-color:rgba(255,255,255,0.65);
 	padding: 3%;
 	border-radius: 1px;
   color: #6b6b6b;
@@ -85,7 +85,7 @@ main {
 
 
 body {	
-	background: linear-gradient(to bottom, rgb(103, 187, 247), rgb(255, 204, 216), #fec051,rgb(167, 135, 237), rgb(5, 61, 181), rgb(22, 49, 107), black, black );
+	background: linear-gradient(to bottom,  rgb(56, 172, 255), rgb(123, 180, 221),  rgb(133, 182, 218), rgb(103, 187, 247), rgb(103, 187, 247), rgb(255, 204, 216),rgb(238, 162, 180), #fec051,#ff9260, rgb(70, 62, 141), rgb(22, 49, 107), black, black, black );
   background-size: 100%;
   background-repeat: no-repeat;
   position: relative;
