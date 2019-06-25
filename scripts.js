@@ -40,16 +40,22 @@
 // });
 
 
-// $(window).scroll(function() {
-//    var scrollTop = $(this).scrollTop();
+$(window).scroll(function() {
+   var scrollTop = $(this).scrollTop();
  
-//    $('.stars').css({
-//      opacity: function() {
-//        var elementHeight = $(this).height();
-//        return (elementHeight - scrollTop) / elementHeight;
-//      }
-//    });
-//  });
+   $('.stars').css({
+     opacity: function() {
+       var elementHeight = $(this).height();
+       return 1 - (elementHeight - scrollTop) / elementHeight;
+     }
+   });
+   $('.main').css({
+    opacity: function() {
+      return 1;
+    }
+  });
+ });
+
 
 
 // $(function() {
