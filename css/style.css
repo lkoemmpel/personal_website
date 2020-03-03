@@ -2,17 +2,27 @@
 
 
 
-html {
+/* html {
   padding-left:10%;
   padding-right:10%
 	font-family: 'Muli', sans-serif;
 	font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
-}
+} */
 
 
 /* For white and slightly transparent background behind text body that scrolls */
 main {
+  background-color:rgba(255,255,255);
+	padding: 3%;
+	border-radius: 1px;
+  margin-left: 7%;
+  margin-right: 7%;
+  text-align: justify;
+}
+
+/* For white and slightly transparent background behind text body that scrolls */
+/* main {
   background-color:rgba(255,255,255,0.65);
 	padding: 3%;
 	border-radius: 1px;
@@ -20,7 +30,7 @@ main {
   margin-left: 7%;
   margin-right: 7%;
   text-align: justify;
-}
+} */
 
 
 
@@ -75,12 +85,20 @@ main {
 
 
 body {	
-	background: linear-gradient(to bottom,  rgb(56, 172, 255), rgb(123, 180, 221),  rgb(133, 182, 218), rgb(103, 187, 247), rgb(103, 187, 247), rgb(255, 204, 216),rgb(238, 162, 180), rgb(70, 62, 141), rgb(22, 49, 107), black, black, black );
+	background: white;
   background-size: 100%;
   background-repeat: no-repeat;
   position: relative;
 }
 
+/* Sunset background body */
+/* body {	
+	background: linear-gradient(to bottom,  rgb(56, 172, 255), rgb(123, 180, 221),  rgb(133, 182, 218), rgb(103, 187, 247), rgb(103, 187, 247), rgb(255, 204, 216),rgb(238, 162, 180), rgb(70, 62, 141), rgb(22, 49, 107), black, black, black );
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+} */
+/* 
 body:before{
 	content:'';
 	position: fixed;
@@ -90,7 +108,7 @@ body:before{
   z-index: -1;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.425));
   font-size: 12px;
-}
+} */
 
 
 .displayNone {
@@ -138,11 +156,11 @@ body:before{
 
 /* Place text on the image */
 .hero-text {
-  text-shadow: 0 1px 2px rgba(0,0,0,.5);
-  font-size: 45px;
+  text-shadow: 0 1px 2px rgba(0,0,0,1.2);
+  font-size: 50px;
   position: absolute;
-  top: 75%;
-  left: 15%;
+  top: 77%;
+  left: 22.5%;
   transform: translate(-50%, -50%);
   color: white;
 }
