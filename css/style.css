@@ -1,146 +1,73 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600');
 
 
-
-/* html {
-  padding-left:10%;
-  padding-right:10%
-	font-family: 'Muli', sans-serif;
-	font-smoothing: antialiased;
-	text-rendering: optimizeLegibility;
-} */
-
-
-/* For white and slightly transparent background behind text body that scrolls */
-main {
-  background-color:rgba(255,255,255);
-	padding: 3%;
-	border-radius: 1px;
-  margin-left: 7%;
-  margin-right: 7%;
-  text-align: justify;
+.img-fluid {
+  width: 25%;
+  margin: 2%;
 }
 
-/* For white and slightly transparent background behind text body that scrolls */
-/* main {
-  background-color:rgba(255,255,255,0.65);
-	padding: 3%;
-	border-radius: 1px;
-  color: #6b6b6b;
-  margin-left: 7%;
-  margin-right: 7%;
-  text-align: justify;
-} */
-
-
-
-.stars {
-  background-image: url('../stars3.png');
-  background-size: 100%;
-  background-repeat: repeat-y;
-  opacity: 0;
-  top: 0;
-  left: 0;
-  max-width:100%;
-  width: 100%;
-  height:100%;
-  position: absolute;
-  z-index: 10;
+.story-text {
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 4%;
+  margin-bottom: 0%;
 }
 
-#star-svg {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  width: 150px;
-  height: 150px;
-  margin: -75px 0 0 -75px;
+.standout {
+  color:MediumSeaGreen;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.795);
+  /* background-color: rgba(55, 100, 64, 0.377); */
+  /* background-image: linear-gradient(rgba(55, 100, 64, 0.329), rgba(55, 100, 64, 0.116)); */
+  /* border-top:6px solid rgba(45, 126, 62, 0.87); */
+  border-bottom:1.5px solid rgba(55, 100, 64, 0.377);
+}
+
+.leftmost {
+  margin-left: 18%;
 }
 
 
-.box{
-  position: relative;
-  display: inline-block; /* Make the width of box same as image */
+.nav-item {
+  margin-right: 3%;
+  min-width: max-content;
 }
 
-.box .text{
-  position: absolute;
-  z-index: 999;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  top: 40%; /* Adjust this value to move the positioned div up and down */
-  text-align: center;
-  width: 60%; /* Set the width of the positioned div */
-}
 
-#container {
-	margin: 10%;
-	padding: 60px;
-	border-radius: 20px;
-  box-shadow: 0 3px 26px 0 rgba(0,0,0,0.20);
-  margin-top: 5%;
-}
 
 
 
 body {	
-	background: white;
+  /* background: white; */
+  /* background-image: linear-gradient(rgba(55, 100, 64, 0.329), rgba(55, 100, 64, 0.116)); */
+  background-image: url(../background_image7.jpg);
+  /* background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../background_image.jpg); */
   background-size: 100%;
   background-repeat: no-repeat;
   position: relative;
 }
 
-/* Sunset background body */
-/* body {	
-	background: linear-gradient(to bottom,  rgb(56, 172, 255), rgb(123, 180, 221),  rgb(133, 182, 218), rgb(103, 187, 247), rgb(103, 187, 247), rgb(255, 204, 216),rgb(238, 162, 180), rgb(70, 62, 141), rgb(22, 49, 107), black, black, black );
-  background-size: 100%;
-  background-repeat: no-repeat;
-  position: relative;
-} */
-/* 
-body:before{
-	content:'';
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	width: 100%;
-  z-index: -1;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.425));
-  font-size: 12px;
-} */
 
-
-.displayNone {
-   display: none;
+.w3-content {
+  background-color: rgba(255, 255, 255, 0.774);
+  margin-left: 30%;
 }
 
-.biotext {
-  margin:40%;
-  padding: 40px;
-  font-size: 1.5em;
-  background-color: #ccc;
-}
 
-.storytext {
-  margin-right:10%;
-  margin-left:10%;
-  /*padding: 10px;*/
-  font:slabo;
-  font-size: 10pt;
-  background-color: rgb(94, 174, 255);
-  letter-spacing: 5px;
-}
+
+
 
 #wrapper {
     min-width: 300px;
     overflow:scroll;
 }
 
+
 /* The hero image */
 .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), src="headshot_banner2";
+
 
   /* Set a specific height */
   height: 25%;
@@ -154,13 +81,14 @@ body:before{
   position: relative;
 }
 
+
 /* Place text on the image */
 .hero-text {
   text-shadow: 0 1px 2px rgba(0,0,0,1.2);
   font-size: 50px;
   position: absolute;
   top: 77%;
-  left: 22.5%;
+  left: 24%;
   transform: translate(-50%, -50%);
   color: white;
 }
