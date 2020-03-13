@@ -26,7 +26,7 @@
 }
 
 .leftmost {
-  margin-left: 18%;
+  margin-left: 22%;
 }
 
 
@@ -42,7 +42,7 @@
 body {	
   /* background: white; */
   /* background-image: linear-gradient(rgba(55, 100, 64, 0.329), rgba(55, 100, 64, 0.116)); */
-  background-image: url(../background_image7.jpg);
+  background-image: url(../single_image_background.jpg);
   /* background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../background_image.jpg); */
   background-size: 100%;
   background-repeat: no-repeat;
