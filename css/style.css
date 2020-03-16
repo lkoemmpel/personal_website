@@ -56,7 +56,13 @@ body {
 }
 
 
+.footer-copyright {
+  background-color: rgba(255, 255, 255, 0.6);
+}
 
+.un-emphasis {
+  color: rgb(106, 106, 209);
+}
 
 
 #wrapper {
