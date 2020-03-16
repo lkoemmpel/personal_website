@@ -42,7 +42,7 @@
 body {	
   /* background: white; */
   /* background-image: linear-gradient(rgba(55, 100, 64, 0.329), rgba(55, 100, 64, 0.116)); */
-  background-image: url(../single_image_background.jpg);
+  background: url(../single_image_background.jpg) rgb(119, 148, 175);
   /* background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../background_image.jpg); */
   background-size: 100%;
   background-repeat: no-repeat;
@@ -91,7 +91,7 @@ body {
 /* Place text on the image */
 .hero-text {
   text-shadow: 0 1px 2px rgba(0,0,0,1.2);
-  font-size: 50px;
+  font-size: 3.33em;
   position: absolute;
   top: 77%;
   left: 24%;
