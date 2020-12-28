@@ -77,6 +77,19 @@ header.masthead {
   max-height: 50px;
 }
 
+
+.img-fluid {
+  width: 15%;
+  margin: 2%;
+}
+
+.story-text {
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
 header.masthead .masthead-content {
   z-index: 1;
   position: relative;
